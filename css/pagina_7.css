@@ -1,0 +1,84 @@
+@import url("/css/paginas.css");
+@import url("/css/variables.css");
+
+/* Estilo del contenedor del rectángulo */
+.rectangulo {
+    width: 400px;
+    max-width: 500px;
+    height: 100;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    background-color: var(--blanco);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px auto; /* Centra el rectángulo horizontalmente y agrega espacio arriba y abajo */
+}
+
+/* Estilo de los cuadrados dentro del rectángulo */
+.cuadro {
+    background-color: var(--blanco);
+    border: 2px solid var(--blanco);
+    position: relative;
+    transition: 1s;
+    filter: drop-shadow( 0 0 20px var(--gris));
+}
+
+.cuadro::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+#cuadro__sexi {
+    background-image: url('/Imaganes/sexi.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#cuadro__loco {
+    background-image: url('/Imaganes/loco.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+#cuadro__malavado {
+    background-image: url('/Imaganes/cara.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#cuadro__feli {
+    background-image: url('/Imaganes/feli.png');
+    background-size: cover;
+    background-position: center;
+}
+/* Modicficaciones */
+
+.cuadro--sexi:hover{
+  background-color: var(--Rojo);
+  filter: drop-shadow(0px 10px 20px var(--Rojo));
+  width: 150px;
+  height: 150px;
+}
+
+.cuadro--loco:hover{
+  background-color: var(--verde);
+  filter: drop-shadow(0px 10px 20px var(--Lila_intenso));
+}
+
+
+.cuadro--malvado:hover{
+  background-color: var(--Beige);
+  filter: drop-shadow(0px 10px 20px var(--negro));
+  border: solid 3px var(--Lila_intenso);
+}
+
+.cuadro--feli:hover{
+  background-color: var(--Amarillo);
+  filter: drop-shadow(0px 10px 20px var(--Amarillo));
+  width: 150px;
+  height: 150px;
+  border: solid 5px var(--negro);
+}

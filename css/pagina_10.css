@@ -1,0 +1,101 @@
+@import url("/css/paginas.css");
+@import url("/css/variables.css");
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: var(--blanco);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: var(--gris);
+    border: 1px solid var(--gris);
+    border-radius: 4px;
+    position: relative;
+    border: solid 1px var(--Azul_Oscuro);
+  }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-button {
+    background-color: var(Azul_submarico);
+    color: var(--blanco);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--blanco);
+    min-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--blanco);
+}
+
+.dropdown-button:focus + .dropdown-content, .dropdown-content:hover {
+    display: block;
+}
+
+/* modificaciones */
+/* 1 Quiero subrayar mis eleciones favoritas de amarillo */
+
+.Opcion--Hawayana, .Opcion--Pepsi{
+  background-color: var(--Amarillo)
+}
+
+/* 2 quiero en las arepas, cada opcion tenga un color diferente  */
+
+.Opcion--Mixtas{
+  background-color: var(--Rojo);
+}
+.Opcion--Campesita{
+  background-color: var(--Azul_Oscuro);
+}
+.Opcion--Maiserita{
+  background-color: var(--Naranja);
+}
+
+/* 3 quiero  postre tenga una fuente dirente a los demas y un color de letas naranja */
+.caja--postres{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: var(--Naranja);
+}
+
+/* 4 quiero que cuando pase por encima el cursor, el boton de las empanadas y arepas inviertan sus colores */
+
+.dropdown-button--Empanadas:hover,.dropdown-button--Arepas:hover{
+  background-color: var(--gris);
+  var(--Azul_Oscuro);
+}
+.box--Arepas:hover,.box--Empanadas:hover{
+  background-color: var(--Azul_Oscuro);
+}

@@ -1,0 +1,109 @@
+@import url("/css/paginas.css");
+@import url("/css/variables.css");
+
+*{
+  margin: 0 auto;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boton{
+  display: inline-flex;
+  width: 120px;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 0 auto;
+  border: solid 1px ;
+  text-decoration: none;
+  justify-content: space-evenly;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 1s all;
+}
+.azul{
+  color: var(--blue);
+  background-color: var(--blanco);
+}
+.color--azul{
+  background-color: var(--Azul_Oscuro);
+  color:var(--blanco);
+  border: solid 1px var(--Azul_Oscuro);
+}
+.color--azul:hover{
+  background-color:var(--blanco);
+  color: var(--Azul_Oscuro);
+}
+.azul:hover{
+  background-color: var(--Azul_Oscuro);
+  color:var(--blanco);
+}
+
+
+.negro{
+  color: var(--negro);
+  background-color: var(--blanco);
+}
+.color--negro{
+  background-color: var(--negro);
+  color:var(--blanco);
+  border: solid 1px var(--Azul_Oscuro);
+}
+.color--negro:hover{
+  background-color:var(--blanco);
+  color: var(--negro);
+}
+.negro:hover{
+  background-color: var(--negro);
+  color:var(--blanco);
+}
+
+
+.naranja{
+  color: var(--Naranja);
+  background-color: var(--blanco);
+}
+.color--naranja{
+  background-color: var(--Naranja);
+  color:var(--blanco);
+  border: solid 1px var(--Azul_Oscuro);
+}
+.color--naranja:hover{
+  background-color:var(--blanco);
+  color: var(--Naranja);
+}
+.naranja:hover{
+  background-color: var(--Naranja);
+  color:var(--blanco);
+}
+
+
+.verde{
+  color: var(--verde);
+  background-color: var(--blanco);
+}
+.color--verde{
+  background-color: var(--verde);
+  color:var(--blanco);
+  border: solid 1px var(--Azul_Oscuro);
+}
+.color--verde:hover{
+  background-color:var(--blanco);
+  color: var(--verde);
+}
+.verde:hover{
+  background-color: var(--verde
+  );
+  color:var(--blanco);
+}
+
+.contenedor{
+  margin-top: 100px;
+  width: 300px;
+  height: 270px;
+  background-color: var(--blanco);
+  align-content: center;
+  text-align: center;
+ border: solid 1px;
+}

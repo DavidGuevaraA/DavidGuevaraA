@@ -1,0 +1,92 @@
+@import url("/css/paginas.css");
+@import url("/css/variables.css");
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+header{
+  color: var(--blanco);
+  padding: 5px ;
+  background-color: rgb(98, 239, 202);
+  background-size: fill;
+  text-align: center;
+}
+
+.boton{
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 11px;
+  border-radius: 0 5px 5px 0;
+  border: solid 1px var(--verde);
+  background-color: var(--verde);
+  text-decoration: none;
+  font-size: 0.1%;
+  color: var(--blanco);
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+.boton--borde{
+  width: 20px;
+  margin: 10px;
+}
+.boton__texto{
+  color: var(--verde);
+  
+}
+.boton:hover{
+  transition: 1s;
+  display: block;
+  width: 250px;
+  color:var(--letras_oscu);
+  background-color: var(--blanco);
+  text-align: center;
+  font-size: 30px;
+}
+body{
+  background-color: var(--gris);
+}
+a{
+  text-decoration: none;
+}
+.regreso{
+  text-decoration: none;
+}
+/* Modificaciones 1 */
+.boton--Hogar{
+  background-color: var(--Azul_Oscuro);
+}
+.Texto--Hogar{
+  color: var(--Azul_Oscuro);
+}
+/* Modificaciones 2 */
+
+.boton__papelera:hover{
+  background-color: var(--Azul_Oscuro);
+  color: var(--blanco);
+}
+.texto--papelera:hover{
+  color: var(--negro);
+}
+
+/* Modificaciones 3 */
+.boton__favorito:hover{
+  width: 350px;
+  background-color: var(--Rojo);
+  color: var(--blanco);
+}
+.texto--favorito:hover{
+  color: var(--blanco);
+}
+/* Modificacion 4 */
+.boton__codigo:hover{
+  width:85px ;
+  height: 300px;
+}
+
+

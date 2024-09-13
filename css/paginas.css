@@ -1,0 +1,70 @@
+@import url("/css/variables.css");
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+*{
+  margin: 0 ;
+  padding: 0 ;
+}
+
+.centrador{
+text-align: center;
+margin: 10px;
+}
+.botones{
+  width: 600px;
+  height: 30px;
+  margin: 0 auto;
+}
+.button{
+  margin-top: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.button__Comando{
+  padding: 4px;
+  background-color: var(--Beige);
+  border: solid 1px var(--Naranja);
+  cursor:ew-resize;
+}
+.button__Numerico{
+  padding: 5px;
+  border: solid 1px var(--Naranja);
+  background-color: var(--Beige);
+  text-align: center;
+}
+
+.button{
+  cursor:pointer;
+}
+.button__Numerico--presente{
+  padding: 5px;
+  color: var(--blanco);
+  border: solid 1px var(--negro);
+  background-color: var(--Beige_osc);
+  text-align: center;
+  cursor: copy;
+}
+.button__Comando{
+  cursor:ew-resize;
+}
+
+.caja__Interfaz{
+  
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  height: 600px;
+  width: 600px;;
+  background-color: var(--Azul_submarino);
+  display: grid;
+  grid-template-columns: [modificaciones] 300px[Nombre]50%;
+  grid-template-rows: [linea_1] 70px [linea_2] 70px [linea_3] 70 [linea_4] 70px;
+  align-items: center;
+
+}

@@ -1,0 +1,88 @@
+@import url("/css/paginas.css");
+@import url("/css/variables.css");
+.container {
+    display: flex;
+    border: 2px solid #ccc; /* Borde interno de 2px */
+    width: 400px;
+    max-width: 800px;
+    height: 100px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.image {
+    flex: 9; /* Ocupa el 80% del contenedor */
+    overflow: hidden;
+}
+
+.image img {
+    width: auto;
+    height: 100px;
+}
+
+.name {
+    flex: 2; /* Ocupa el 20% del contenedor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid var(--gris_oscuro); /* Borde interno entre imagen y nombre */
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    background-color: var(--gris);
+}
+/* Modificaciones */
+.name_ThunderCats{
+  background-color: var(--Rojo);
+  color: var(--blanco);
+}
+.container_ThunderCats{
+  background-color: rgb(227, 70, 70);
+  border: solid 1px var();
+}
+
+
+
+.container--show{
+    width: 600px;
+    height: 100px;
+    filter: drop-shadow(0 0 10px var(--negro));
+}
+.container--show:hover{
+  filter: drop-shadow(0 0 10px var(--Amarillo));
+}
+
+.container--mini:hover{
+  width: 600px;
+  height: 100px;
+
+}
+.name--mini{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+.name--mini:hover,.container--mini:hover{
+  background-color: var(--Lila_intenso);
+  transition: all 2s;
+  border: solid 2px var(--violeta);
+}
+
+
+
+.container--Dragon:hover{
+  width: 600px;
+  height: 400px;
+  align-items: center;
+  transition: all 1s;
+  background-color: var(--verde);
+}
+.image .eee:hover{
+  width: 400px;
+  height: auto;
+  padding: 25px;
+}
+.name--drangon_ball:hover{
+  background-color: var(--Naranja);
+  border: solid 3px var(--Verde_Claro);
+}

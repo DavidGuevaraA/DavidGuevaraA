@@ -1,0 +1,88 @@
+@import url("/css/paginas.css");
+@import url("/css/variables.css");
+/* Estilo base para el contenedor de los formularios */
+.formularios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilo para cada formulario */
+.formulario {
+    background-color: var(--blanco);
+    border: 1px solid var(--gris);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px var(--negro);
+}
+
+/* Estilo para los elementos del formulario */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--gris);
+    border-radius: 4px;
+}
+
+form button {
+    background-color: var(--Azul_marino);
+    color: var(--blanco);
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: var(--Azul_marino);
+}
+/* Modificiacion--luisa */
+.formulario--Luisa{
+  background-color: var(--Azul_submarino);
+}
+.boton--formluisa{
+  background-color: var(--Azul_Oscuro);
+}
+/* Modificaciones--David */
+.formulario--David{
+  color: var(--Azul_Oscuro);
+  background-color: var(--negro);
+}
+.boton--David:hover{
+  background-color: var(--blanco);
+  color: var(--negro);
+}
+/* Modificaciones Manolo */
+.formulario--Manolo{
+  background-color: var(--Rosita);
+  width:345px;
+}
+.boton--Manolo{
+  background-color: var(--Rosita_claro);
+  width: 200px;
+}
+/* Moficicaciones--Yari */
+.formulario--Yari:hover{
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+.boton--Yari{
+  background-color: var(--negro);
+}
+
+.boton--Yari:hover{
+  background-color: var(--blanco);
+  color: var(--negro);
+}

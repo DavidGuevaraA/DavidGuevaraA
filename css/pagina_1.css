@@ -1,0 +1,49 @@
+@import url("/css/paginas.css");
+@import url("/css/variables.css");
+.button--border
+{
+  border: solid 1px var(--negro);
+}
+.Modicicacion:hover{
+  font-size: 25px;
+  transition: 1s;
+}
+/* David=modificacion#1 */
+.Modicicacion--1{
+  font-size:15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Modicicacion--1:hover{
+  font-size: 25px;
+  transition: 1s;
+  background-color:var(--Azul_marino);
+  color: var(--blanco);
+}
+/* Yariangel=modificacion#2 */
+.Modicicacion--2{
+  color: var(--blanco);
+  font-size:15px;
+  font-family:cursive;
+}
+.Modicicacion--2:hover{
+  background-color: var(--Verde_Claro);
+  color: var(--blanco);
+}
+/* Kevin=modificacion#3 */
+.Modicicacion--3{
+  color: brown;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Modicicacion--3:hover{
+  background-color: var(--Lila_intenso);
+  color: var(--blanco);
+}
+/* Manuel=modificacion#4 */
+.Modicicacion--4{
+  color: var(--Vinotino);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Modicicacion--4:hover{
+  background-color: var(--gris_oscuro);
+  color: var(--blanco);
+}

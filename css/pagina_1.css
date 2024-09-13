@@ -7,43 +7,51 @@
 .Modicicacion:hover{
   font-size: 25px;
   transition: 1s;
-}
-/* David=modificacion#1 */
-.Modicicacion--1{
-  font-size:15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.Modicicacion--1:hover{
+/* David modificacion 1 */
+.Modicicacion--David{
+  font-size:15px;
+}
+.Modicicacion--David:hover{
   font-size: 25px;
   transition: 1s;
   background-color:var(--Azul_marino);
   color: var(--blanco);
 }
-/* Yariangel=modificacion#2 */
-.Modicicacion--2{
+
+
+/* Yariangel modificacion 2 */
+
+.Modicicacion--Yariangel{
   color: var(--blanco);
   font-size:15px;
   font-family:cursive;
 }
-.Modicicacion--2:hover{
+.Modicicacion--Yariangel:hover{
   background-color: var(--Verde_Claro);
   color: var(--blanco);
 }
+
+
 /* Kevin=modificacion#3 */
-.Modicicacion--3{
+
+.Modicicacion--Kevin{
   color: brown;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  filter: drop-shadow( 0 0 1px var(--negro));
 }
-.Modicicacion--3:hover{
+.Modicicacion--Kevin:hover{
   background-color: var(--Lila_intenso);
   color: var(--blanco);
 }
-/* Manuel=modificacion#4 */
-.Modicicacion--4{
+
+
+/* Manuel modificacion 4 */
+
+.Modicicacion--Manuel{
   color: var(--Vinotino);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.Modicicacion--4:hover{
+.Modicicacion--Manuel:hover{
   background-color: var(--gris_oscuro);
   color: var(--blanco);
 }

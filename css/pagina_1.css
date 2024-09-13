@@ -18,7 +18,7 @@
 {
   border: solid 1px var(--negro);
 }
-.Modicicacion:hover{
+.caja__Interfaz__Modicicacion:hover{
   font-size: 25px;
   transition: 1s;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

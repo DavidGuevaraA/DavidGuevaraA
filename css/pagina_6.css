@@ -10,7 +10,7 @@
 }
 
 /* Estilo para cada formulario */
-.formulario {
+.formularios__formulario {
     background-color: var(--blanco);
     border: 1px solid var(--gris);
     border-radius: 8px;

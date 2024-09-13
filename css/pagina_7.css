@@ -17,7 +17,7 @@
 }
 
 /* Estilo de los cuadrados dentro del rectángulo */
-.cuadro {
+.rectangulo__cuadro {
     background-color: var(--blanco);
     border: 2px solid var(--blanco);
     position: relative;
@@ -25,7 +25,7 @@
     filter: drop-shadow( 0 0 20px var(--gris));
 }
 
-.cuadro::before {
+.rectangulo__cuadro::before {
     content: "";
     display: block;
     padding-top: 100%;

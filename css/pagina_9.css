@@ -1,6 +1,6 @@
 @import url("/css/paginas.css");
 @import url("/css/variables.css");
-.container {
+.caja__container {
     display: flex;
     border: 2px solid #ccc; /* Borde interno de 2px */
     width: 400px;

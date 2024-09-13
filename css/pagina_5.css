@@ -41,32 +41,32 @@
     box-shadow: 0 8px 16px var(--negro);
 }
 /* Modificaciones --1 */
-.elemento--1:hover{
+.elemento--rojo:hover{
   background-color: var(--Rojo);
 }
 
 /* Modificaciones --2 */
 /* se vuelve verde */
-.elemento--2{
+.elemento--naranja{
   background-color: var(--verde);
 }
 /* Cambia a Naranja */
-.elemento--2:hover{
+.elemento--naranja:hover{
   background-color: var(--Naranja);}
 
 /* Modificaciones --3 */
-.elemento--3{
+.elemento--Lrojas{
   color: var(--Rojo);
 }
-.elemento--3:hover{
+.elemento--Lrojas:hover{
   cursor:crosshair;
 }
 
 /* Modificaciones --4 */
-.elemento--4{
+.elemento--todos__cambios{
   color: var(--Lila_intenso);
 }
-.elemento--4:hover{
+.elemento--todos__cambios:hover{
   background-color: var(--gris_oscuro);
   color: var(--blanco);
   cursor: crosshair;

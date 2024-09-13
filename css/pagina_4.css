@@ -15,7 +15,7 @@ header{
   text-align: center;
 }
 
-.boton{
+.botones__boton{
   display: block;
   width: 60px;
   height: 60px;
@@ -31,7 +31,7 @@ header{
   margin-top: 10px;
   
 }
-.boton--borde{
+.botones__boton--borde{
   width: 20px;
   margin: 10px;
 }
@@ -39,7 +39,7 @@ header{
   color: var(--verde);
   
 }
-.boton:hover{
+.botones__boton:hover{
   transition: 1s;
   display: block;
   width: 250px;

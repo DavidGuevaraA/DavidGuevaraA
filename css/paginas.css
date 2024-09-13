@@ -54,17 +54,3 @@ margin: 10px;
   cursor:ew-resize;
 }
 
-.caja__Interfaz{
-  
-  margin: 0 auto;
-  margin-top: 40px;
-  text-align: center;
-  height: 600px;
-  width: 600px;;
-  background-color: var(--Azul_submarino);
-  display: grid;
-  grid-template-columns: [modificaciones] 300px[Nombre]50%;
-  grid-template-rows: [linea_1] 70px [linea_2] 70px [linea_3] 70 [linea_4] 70px;
-  align-items: center;
-
-}
